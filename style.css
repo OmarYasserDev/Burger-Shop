@@ -1,0 +1,112 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.login-page {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-container {
+    width: 30%;
+    background-color: #FEF1E5;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 80px 40px;
+    box-sizing: border-box;
+}
+
+.login-container h1 {
+    font-size: 36px;
+    margin: 0 0 20px 0;
+    font-family: "Iosevka Charon", monospace;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.login-container p {
+    font-size: 18px;
+    font-family: "Iosevka Charon", monospace;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+
+.input-section {
+    margin-bottom: 25px;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.input-section label:hover{
+    transform: translateY(-2px);
+}
+
+.input-field {
+    width: 100%;
+    padding: 16px;
+    border: 2px solid #666;
+    border-radius: 18px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    outline: none;
+}
+
+.input-field:focus {
+    border-color: #000;
+}
+
+.login-button {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 18px;
+    background-color: #000;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.login-button:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}
+
+.signup-section {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.signup-button {
+    border: none;
+    background: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.signup-button:hover {
+    transform: translateY(-2px);
+}
+
+.login-image {
+    width: 70%;
+    background-image: url("login-back-ground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
