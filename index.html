@@ -17,6 +17,7 @@
     <div class="login-container">
         <h1>Welcome to My Website</h1>
         <p>This is a sample webpage created to demonstrate HTML structure and styling.</p>
+        <form id="login">
         <div class="input-section">
             <label for="email">Email:</label>
             <input type="text" id="email" placeholder="Enter your email" class="input-field">
@@ -25,10 +26,15 @@
             <label for="password">Password: </label>
             <input type="password" id="password" placeholder="Enter your password" class="input-field">
         </div>
+        </form>
         <button class="login-button">Login</button> 
         <div class="signup-section">
-            <p>Don't have an account? 
-                <button class="signup-button">Sign up</button>
+            <p>Don't have an account?
+                <a href="sign-up-page.html">
+                    <button class="signup-button">Sign up
+                    </button>
+                </a>
+                
             </p>
         </div>
     </div>

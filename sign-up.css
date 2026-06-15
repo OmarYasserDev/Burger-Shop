@@ -1,0 +1,152 @@
+/* Sign-up Page */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #facf8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up {
+    background-color: #e67e22;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    padding: 50px 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.sign-up:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.sign-up h1 {
+    font-size: 36px;
+    margin-top: 100px;
+    font-family: "Iosevka Charon", monospace;
+    font-weight: bold;
+    line-height: 1.1;
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+}
+.sign-up p {
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.5;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.sign-up p:hover {
+    transform: translateY(-2px);
+    color: #ffe0b2;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: "Iosevka Charon", monospace;
+}
+.input-section label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s ease;
+}
+.input-section label:hover {
+    color: #ffe0b2;
+}
+.input-section input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.input-section input:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+.input-section input:focus {
+    outline: none;
+    border-color: #d35400;
+    box-shadow: 0 0 10px rgba(211, 84, 0, 0.35);
+}
+.input-section input::placeholder{
+    color: #888;
+}   
+.button-section {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.button-section button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: #e67e22;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-section button:hover {
+    background-color: #fff7f0;
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.button-section button:active {
+    transform: translateY(0);
+}
+.login-link{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+.login-link a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sign-up{
+    animation: fadeInUp 0.8s ease;
+}
+@keyframes fadeInUp{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#message-box{
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    z-index: 99999;
+}
