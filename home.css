@@ -44,6 +44,7 @@ body {
     color: aliceblue;
     font-size: larger;
     transition: 0.3s;
+    cursor: pointer;
 }
 .btn:hover{
     color: gold;
@@ -78,4 +79,85 @@ body {
     outline: none;
     cursor: pointer;
     padding: 0;
+}
+.text-sec{
+    margin-top: 150px;
+    margin-left: 130px;
+    color: aliceblue;
+}
+.text-sec h1{
+    font-size: 48px;
+    line-height: 1.2;
+}
+.text-sec p{
+    font-size: 23px;
+    color: rgb(195, 192, 192);
+    line-height: 1.6;
+}
+.btn3{
+    padding: 12px 28px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn3:hover{
+    background-color: gold;
+    color: black;
+    border-color: gold;
+    transform: translateY(-3px);
+}
+.gallery-sec{
+    display: flex;
+    gap: 15px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.img-gallery{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.img-gallery:hover{
+    transform: scale(1.1);
+}
+/* beggning of JS */
+.btn.active{
+    color: gold;
+}   
+.purchase-cart{
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.search,
+.cart{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#searchBox{
+    display: none;
+    width: 150px;
+    height: 28px;
+    padding: 4px 8px;
+    background-color: aqua;
+}
+
+#searchBox.show{
+    display: block;
 }
