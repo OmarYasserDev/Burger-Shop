@@ -127,7 +127,6 @@ body {
     transition: 0.3s;
 
 }
-
 .img-gallery:hover{
     transform: scale(1.1);
 }
@@ -142,14 +141,12 @@ body {
     justify-content: flex-end;
     gap: 10px;
 }
-
 .search,
 .cart{
     width: 24px;
     height: 24px;
     cursor: pointer;
 }
-
 #searchBox{
     display: none;
     width: 150px;
@@ -157,7 +154,89 @@ body {
     padding: 4px 8px;
     background-color: aqua;
 }
-
 #searchBox.show{
     display: block;
+}
+.deal-of-the-day-sec{
+    background-color: black;
+    height: 100vh;
+}
+.the-icon-tex-sec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    padding: 40px 20px;
+}
+.feature{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    max-width: 280px;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.icon:hover{
+    transform: translateY(-2px);
+    scale: 1.1;
+     border: 1px solid orange;
+}
+.text{
+    margin-top: -8px;
+}
+.text h3{
+    color: white;
+    margin-bottom: 8px;
+    font-size: 24px;
+    
+}
+
+.text p{
+    color: #bcbcbc;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.the-the-deal-sec{
+    display: flex;
+    justify-content: space-evenly;
+}
+.deal-img{
+    width: 600px;
+}
+.burger-dis{
+    color: white;
+    max-width: 420px;
+    margin-top: 100px;
+}
+
+.burger-dis h3{
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.burger-dis h3:hover{
+    transform: translateY(-2px);
+}
+
+.burger-dis p{
+    font-size: 18px;
+    color: #a8a8a8;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.burger-dis h4{
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.burger-dis h4 span{
+    font-size: 32px;
+    color: #9c9c9c;
 }
