@@ -7,14 +7,13 @@ buttons.forEach(button => {
         button.classList.add("active");
     });
 });
-
 const searchBtn = document.getElementById("searchBtn");
 const searchBox = document.getElementById("searchBox");
 searchBtn.addEventListener("click", () => {
     searchBox.classList.toggle("show");
 });
+// products display
 const items = document.querySelectorAll(".item");
-
 const overlay = document.querySelector(".overlay");
 const modalImg = document.querySelector(".modal-img");
 const modalTitle = document.querySelector(".modal-title");
