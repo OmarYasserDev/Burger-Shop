@@ -15,7 +15,7 @@
             </div>
             <div class="buttons">
                 <button class="btn active">Home</button>
-                <button class="btn">Menu</button>
+                <a href="#menue"><button class="btn">Menu</button></a>
                 <button class="btn">About</button>
                 <button class="btn">Shop</button>
             </div>
@@ -32,7 +32,7 @@
             </p>
         <div class="btn-sec">
             <button class="btn3">Order Now!</button>
-            <button class="btn3">View More</button>
+            <a href="#the-icon-tex-sec"><button class="btn3">Our daily deal!</button></a>
         </div>
         </div>
         <div class="gallery-sec">
@@ -43,7 +43,7 @@
         </div>
     </div>
     <div class="deal-of-the-day-sec">
-        <div class="the-icon-tex-sec">
+        <div class="the-icon-tex-sec" id="the-icon-tex-sec">
             <div class="feature">
                 <div class="icon">
                     <img src="likeicon.png" alt="" class="icon">
@@ -81,6 +81,33 @@
                 <p>A juicy beef burger with melted cheese, <br> fresh lettuce, and crispy fries. A perfect <br>combo packed with flavor in every bite.</p>
                 <h4>$32/<span>$43</span></h4>
             </div>
+        </div>
+        <div class="menue" id="menue">
+            <div class="menu-tabs">
+                <a href="#" class="active">Chicken</a>
+                <a href="#">Pizza</a>
+                <a href="#">French Fries</a>
+                <a href="#">Drinks</a>
+            </div>
+            <div class="products">
+                <div class="item">
+                    <div class="img-product"><img src="gallery2.jpg" alt="" class="img-pro"></div>
+                    <div class="text-product"><h4>cheese burger</h4> <p>$32</p></div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <div class="overlay">
+        <div class="product-modal">
+          <img src="" class="modal-img">
+         <h2 class="modal-title"></h2>
+          <p class="modal-price"></p>
+          <button class="add-cart">
+             Add To Cart
+         </button>
+         <button class="purchase">
+            Purchase Now!
+         </button>
         </div>
     </div>
     <script src="home.js"></script>

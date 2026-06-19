@@ -159,7 +159,6 @@ body {
 }
 .deal-of-the-day-sec{
     background-color: black;
-    height: 100vh;
 }
 .the-icon-tex-sec{
     display: flex;
@@ -214,7 +213,7 @@ body {
 }
 
 .burger-dis h3{
-    font-size: 59px;
+    font-size: 59px ;
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 20px;
@@ -239,4 +238,153 @@ body {
 .burger-dis h4 span{
     font-size: 32px;
     color: #9c9c9c;
+}
+.main-{
+    background-color: black;
+}
+.menu-tabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #1f1f25;
+    border-radius: 40px;
+    padding: 8px;
+    justify-items: center;
+    margin-left: 20px;
+    margin-right: 20px ;
+}
+
+.menu-tabs a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    font-size: 27px;
+}
+
+.menu-tabs a:hover{
+    background: #2d2d35;
+}
+
+.menu-tabs .active{
+    background: #34343d;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.item{
+    background-color: #2d2d35;
+    color: white;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.item:hover{
+    transform: translateY(-5px);
+}
+
+.item.active{
+    border: 2px solid #ff9800;
+    box-shadow: 0 0 15px rgba(255, 152, 0, 0.5);
+    transform: scale(1.03);
+}
+
+.img-product{
+    display: flex;
+    justify-content: center;
+}
+
+.img-pro{
+    width: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.overlay{
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.7);
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    z-index: 9999;
+}
+
+.overlay.show{
+    opacity: 1;
+    visibility: visible;
+}
+
+.product-modal{
+    width: 400px;
+    background: #2d2d35;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    transform: scale(.8);
+    transition: .3s;
+}
+
+.overlay.show .product-modal{
+    transform: scale(1);
+}
+
+.modal-img{
+    width: 250px;
+    border-radius: 15px;
+}
+
+.modal-title{
+    margin-top: 15px;
+    color: white;
+}
+
+.modal-price{
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.add-cart{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.purchase{
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.purchase:hover{
+    background-color: black;
+}
+.products h4{
+    font-size: 36px;
+}
+.products p{
+    font-size: 30px;
+    color: #ff9800;
 }
