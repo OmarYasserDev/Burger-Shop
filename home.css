@@ -330,7 +330,7 @@ body {
     visibility: visible;
 }
 .product-modal{
-    width: 750px;
+    width: 550px;
     border-radius: 20px;
     padding: 25px;
     text-align: center;
@@ -342,7 +342,7 @@ body {
     transform: scale(1);
 }
 .modal-img{
-    width:  650px;
+    width:  400px;
     border-radius: 15px;
 }
 .modal-title{
@@ -385,4 +385,25 @@ body {
 .products p{
     font-size: 30px;
     color: #ff9800;
+}
+#toast{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #28a745;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: .4s;
+    z-index: 99999;
+    pointer-events: none;
+}
+
+#toast.show{
+    opacity: 1;
+    transform: translateX(0);
 }
