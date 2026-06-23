@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Out</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="icon" href="Logo.png">
+
+</head>
+<body>
+
+    <div class="checkout-home">
+
+        <div class="nav-bar">
+            <div class="name">BellyDelight.</div>
+
+            <div class="safe">
+                <img src="lock.png" alt="" class="lock-logo">
+                <p>Safe check out</p>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <!-- LEFT SECTION -->
+            <div class="left-sec">
+
+                <p>Shipping Address</p>
+
+                <div class="name-phone">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="tel" placeholder="Enter your phone number" required>
+                </div>
+
+                <div class="country-gov">
+                    <input type="text" placeholder="Enter your country" required>
+                    <input type="text" placeholder="Enter your governorate" required>
+                </div>
+
+                <div class="city-state-zip">
+                    <input type="text" placeholder="City" required>
+                    <input type="text" placeholder="State" required>
+                    <input type="number" placeholder="Zip Code">
+                </div>
+                <div class="address-line1">
+                    <input type="text" placeholder="Address Line 1" required>
+                </div>
+                <div class="address-line1">
+                    <input type="text" placeholder="Address Line 2 (Optional)">
+                </div>
+                <p>Contact Information</p>
+                <div class="email address-line1">
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+                <p>Payment Method</p>
+                <div class="payment-method">
+                    <div class="payment-option">
+                        <label>
+                            <div class="payment-title">
+                                <input type="radio" name="payment" checked>
+                                <span>Credit / Debit Card</span>
+                            </div>
+                            <div class="cards">
+                                <img src="visa.png" alt="Visa">
+                                <img src="mastercard.png" alt="MasterCard">
+                                <img src="amex.png" alt="Amex">
+                            </div>
+                        </label>
+                        <div class="card-details">
+                            <input type="text"
+                                   placeholder="1234 1234 1234 1234"
+                                   required>
+                            <div class="card-info">
+                                <input type="text"
+                                       placeholder="MM / YY"
+                                       required>
+                                <input type="text"
+                                       placeholder="CVC"
+                                       required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="payment-option paypal">
+                        <label>
+                            <div class="payment-title">
+                                <input type="radio" name="payment">
+                                <span>PayPal</span>
+                            </div>
+                            <img src="paypal.png"
+                                 alt="PayPal"
+                                 class="paypal-logo">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="right-sec">
+                <h3>Order Summary</h3>
+                <div class="product">
+                    <img src="burger.jpg" alt="">
+                    <div class="product-info">
+                        <h4>Classic Burger</h4>
+                        <p>$12.99</p>
+                    </div>
+                </div>
+                <div class="price-row">
+                    <span>Subtotal</span>
+                    <span>$12.99</span>
+                </div>
+                <div class="price-row">
+                    <span>Delivery</span>
+                    <span>$3.00</span>
+                </div>
+                <div class="price-row total">
+                    <span>Total</span>
+                    <span>$15.99</span>
+                </div>
+                <button class="checkout-btn">
+                    Complete Order
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
