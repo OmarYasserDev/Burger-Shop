@@ -1,9 +1,11 @@
 /* Home-page, The-main-page */
-html,
-body {
+*{
     margin: 0;
     padding: 0;
-    height: 100%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
 }
 .home-screen{
     height: 100vh;
@@ -35,14 +37,14 @@ body {
     justify-content: center;
     align-items: center;
     width: 80%;
-    gap: 5px;
+    gap: 10px;
 }
 .btn{
     border: none;
     outline: none;
     background-color: black;
     color: aliceblue;
-    font-size: larger;
+    font-size: 29px;
     transition: 0.3s;
     cursor: pointer;
 }
@@ -406,4 +408,21 @@ body {
 #toast.show{
     opacity: 1;
     transform: translateX(0);
+}
+#rights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 20px 0;
+    margin: 0;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#rights p{
+    margin: 0;
 }

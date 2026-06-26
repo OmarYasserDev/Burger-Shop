@@ -94,32 +94,34 @@
                     </div>
                 </div>
             </div>
+
             <div class="right-sec">
                 <h3>Order Summary</h3>
-                <div class="product">
-                    <img src="burger.jpg" alt="">
-                    <div class="product-info">
-                        <h4>Classic Burger</h4>
-                        <p>$12.99</p>
-                    </div>
-                </div>
+
+                <div id="order-items"></div>
+
                 <div class="price-row">
-                    <span>Subtotal</span>
-                    <span>$12.99</span>
+                  <span>Subtotal</span>
+                    <span id="subtotal">$0.00</span>
                 </div>
+
                 <div class="price-row">
                     <span>Delivery</span>
                     <span>$3.00</span>
                 </div>
+
                 <div class="price-row total">
                     <span>Total</span>
-                    <span>$15.99</span>
+                    <span id="total">$3.00</span>
                 </div>
+
                 <button class="checkout-btn">
-                    Complete Order
+                     Complete Order
                 </button>
-            </div>
+</div>
         </div>
     </div>
+    <script src="checkout.js"></script>
+
 </body>
 </html>
