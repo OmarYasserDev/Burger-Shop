@@ -21,6 +21,11 @@ Modern and responsive Burger Shop website developed using HTML, CSS, and JavaScr
 - Sign up Page
 - Cart Page
 - Checkout Page
+#How to use?
+- Firstly sign up
+- secondly u have to login withe same email and password u signed up with
+- don't refresh the password and the email is temporally stored
+  
 ## Live Demo
 Check out the website live here:
 https://omaryasserdev.github.io/Burger-Shop/
@@ -53,5 +58,8 @@ GitHub: https://github.com/omaryasserdev
 <img width="1859" height="907" alt="image" src="https://github.com/user-attachments/assets/fc38c6c4-d031-48de-9fa1-ed367b2b7c11" />
 <img width="1865" height="907" alt="image" src="https://github.com/user-attachments/assets/64183c19-919d-4fc4-b562-8568a6a81483" />
 <img width="1902" height="907" alt="image" src="https://github.com/user-attachments/assets/bd9be945-ebce-43a9-89e9-cb64a58d9346" />
+#AI usage
+AI helped me abit in the js code ONLY. But the html and the CSS I built it 100 percent on my own
+The UIux of the project is generated using AI but the whole code is written by me
 
 
